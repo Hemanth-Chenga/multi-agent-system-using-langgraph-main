@@ -87,13 +87,7 @@ curl -X POST http://localhost:8000/api/v1/tasks/{task_id}/approve \
 | **State/Cache** | **Redis** | High-speed agent workspace & broker |
 | **LLM** | **LangChain** | LLM abstraction (OpenAI / Groq) |
 
-## Testing
 
-Run the end-to-end test suite to verify system health:
-
-```bash
-docker-compose exec api pytest tests/test_e2e.py -v
-```
 
 ## License
 
